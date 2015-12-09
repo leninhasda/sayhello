@@ -1,0 +1,13 @@
+{
+    "name": "lenin/sayhello",
+    "description": "just a demo composer package",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Lenin Hasda",
+            "email": "leninhasda@gmail.com"
+        }
+    ],
+    "require": {}
+}
