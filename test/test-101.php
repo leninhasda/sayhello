@@ -1,7 +1,8 @@
 <?php 
 
-include "../SayHello.php";
+include "../vendor/autoload.php";
 
-$hello = new \leninhasda\hello\SayHello;
+use \leninhasda\hello\SayHello;
+$hello = new SayHello;
 $hello->setMsg('Hello world');
 $hello->sayIt();
